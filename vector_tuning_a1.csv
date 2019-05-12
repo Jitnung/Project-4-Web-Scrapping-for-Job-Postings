@@ -1,0 +1,85 @@
+,Vectorizer,Confusion Matrix,NM Precision,M Precision,NM Recall,M Recall,NM F1,M F1,AUC score
+0,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[211  15]
+ [ 32  37]]",0.87,0.71,0.93,0.54,0.9,0.61,0.841413364114403
+1,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(1, 2), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[213  13]
+ [ 36  33]]",0.86,0.72,0.94,0.48,0.9,0.57,0.8490445042965242
+2,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(1, 1), preprocessor=None, stop_words='english',
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[214  12]
+ [ 33  36]]",0.87,0.75,0.95,0.52,0.9,0.62,0.8597537514428627
+3,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(1, 2), preprocessor=None, stop_words='english',
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[212  14]
+ [ 33  36]]",0.87,0.72,0.94,0.52,0.9,0.61,0.8466717968449403
+4,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=2,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[212  14]
+ [ 32  37]]",0.87,0.73,0.94,0.54,0.9,0.62,0.8404514556880852
+5,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=5,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[211  15]
+ [ 33  36]]",0.86,0.71,0.93,0.52,0.9,0.6,0.83692445812492
+6,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=0.99, max_features=None, min_df=2,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[212  14]
+ [ 32  37]]",0.87,0.73,0.94,0.54,0.9,0.62,0.8404514556880852
+7,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=0.95, max_features=None, min_df=2,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[214  12]
+ [ 36  33]]",0.86,0.73,0.95,0.48,0.9,0.58,0.8415416185712453
+8,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=0.99, max_features=None, min_df=5,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[211  15]
+ [ 33  36]]",0.86,0.71,0.93,0.52,0.9,0.6,0.83692445812492
+9,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=0.95, max_features=None, min_df=5,
+        ngram_range=(1, 1), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[214  12]
+ [ 37  32]]",0.85,0.73,0.95,0.46,0.9,0.57,0.8391689111196614
+10,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=2,
+        ngram_range=(1, 2), preprocessor=None, stop_words='english',
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[206  20]
+ [ 33  36]]",0.86,0.64,0.91,0.52,0.89,0.58,0.7852699756316532
+11,"CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=5,
+        ngram_range=(1, 2), preprocessor=None, stop_words='english',
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)","[[212  14]
+ [ 33  36]]",0.87,0.72,0.94,0.52,0.9,0.61,0.85475182762601

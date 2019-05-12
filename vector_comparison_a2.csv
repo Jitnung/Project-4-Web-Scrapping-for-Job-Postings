@@ -1,0 +1,97 @@
+,Vectorizer,Confusion Matrix,NM Precision,M Precision,NM Recall,M Recall,NM F1,M F1,AUC score
+0,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(1, 1), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words=None, strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[212  14]
+ [ 37  32]]",0.85,0.7,0.94,0.46,0.89,0.56,0.8439143260228293
+1,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(1, 2), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words=None, strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[211  15]
+ [ 32  37]]",0.87,0.71,0.93,0.54,0.9,0.61,0.8515454662049506
+2,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(1, 1), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words='english', strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[211  15]
+ [ 33  36]]",0.86,0.71,0.93,0.52,0.9,0.6,0.8902783121713479
+3,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(1, 2), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words='english', strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[207  19]
+ [ 25  44]]",0.89,0.7,0.92,0.64,0.9,0.67,0.8505194305502116
+4,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=2,
+        ngram_range=(1, 1), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words=None, strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[207  19]
+ [ 28  41]]",0.88,0.68,0.92,0.59,0.9,0.64,0.8780300115429011
+5,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=5,
+        ngram_range=(1, 1), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words=None, strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[209  17]
+ [ 38  31]]",0.85,0.65,0.92,0.45,0.88,0.53,0.837309221495447
+6,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=0.99, max_features=None, min_df=2,
+        ngram_range=(1, 1), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words=None, strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[207  19]
+ [ 28  41]]",0.88,0.68,0.92,0.59,0.9,0.64,0.8780300115429011
+7,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=0.95, max_features=None, min_df=2,
+        ngram_range=(1, 1), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words=None, strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[211  15]
+ [ 37  32]]",0.85,0.68,0.93,0.46,0.89,0.55,0.843465435423881
+8,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=0.99, max_features=None, min_df=5,
+        ngram_range=(1, 1), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words=None, strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[209  17]
+ [ 38  31]]",0.85,0.65,0.92,0.45,0.88,0.53,0.8373092214954471
+9,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=0.95, max_features=None, min_df=5,
+        ngram_range=(1, 1), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words=None, strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[209  17]
+ [ 38  31]]",0.85,0.65,0.92,0.45,0.88,0.53,0.8354495318712325
+10,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=2,
+        ngram_range=(1, 2), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words='english', strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[211  15]
+ [ 30  39]]",0.88,0.72,0.93,0.57,0.9,0.63,0.884506861613441
+11,"TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.float64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=5,
+        ngram_range=(1, 2), norm='l2', preprocessor=None, smooth_idf=True,
+        stop_words='english', strip_accents=None, sublinear_tf=False,
+        token_pattern='(?u)\\b\\w\\w+\\b', tokenizer=None, use_idf=True,
+        vocabulary=None)","[[212  14]
+ [ 33  36]]",0.87,0.72,0.94,0.52,0.9,0.61,0.8805951006797487
